@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.box-1{
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.box-2{
+    height: 200px;
+    background-color: aqua;
+}
+
+.box-1:hover{
+    transform: scale(1.2);
+}
